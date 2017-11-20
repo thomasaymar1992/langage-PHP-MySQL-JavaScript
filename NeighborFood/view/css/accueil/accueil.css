@@ -1,0 +1,210 @@
+/* styles principaux de la page(largeur du site, fond, couleur par défaut du texte)  */
+
+
+body
+{
+    background: url("/NeighborFood/view/image/Fondbois2.jpg") ;
+    font-family: Courier;
+    color: black;
+
+
+
+
+}
+
+#bloc_page {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+h2
+{
+    font-weight: normal;
+}
+
+/* header */
+
+.carousel
+{
+    border-radius: 3px;
+    border: 4px solid #494848;
+    right : 5px;
+    width : 100% ;
+
+
+
+}
+
+
+
+
+.titre2
+{
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin:0 auto;
+    color: #666666;
+    font-family:Maiandra GD;
+    font-size: 300%;
+
+}
+.titre{
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    margin:0 auto;
+    bottom: 150%;
+    color: #666666;
+    font-family:Maiandra GD;
+    font-size: 300%;
+}
+.logo{
+    width: 14%;
+    margin-top: -50px;
+
+
+}
+p{
+    margin-bottom: 100px;
+
+
+}
+
+
+/*section*/
+
+section
+{
+
+    background-image: url("/NeighborFood/view/image/FondClair.jpg");
+
+    border: 2px solid #494848;
+    text-align: center;
+    margin-top:60px;
+    border-radius: 60px;
+
+}
+
+h1
+{
+
+    text-align: center;
+    opacity:0.5;
+
+
+}
+
+
+
+
+
+
+
+/* footer */
+
+footer ul {
+    font-size: medium;
+    font-family: "Brush Script MT" ;
+    list-style-type: none;
+    position: relative;
+    top :  100px;
+    text-align: center;
+}
+
+
+footer li
+{
+    display: inline-block;
+
+
+}
+
+help li
+{
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+help a
+{
+    font-size: 1.4em;
+    color: black;
+    padding-top: 0%;
+    text-decoration: none;
+
+    border-radius:15px;
+
+}
+
+help a:hover
+{
+    text-shadow: #494848 0px 0px 10px;
+}
+#bandeau_horizontal{
+    position:relative;
+    width:800px;
+    height:230px;
+    border:2px solid black;
+    overflow:hidden;
+    top:-470px;
+    right:-200px;
+}
+
+
+/* connecte */
+
+#connecte
+{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#non_connecte
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+
+}
+
+/* recherche*/
+#rechercher
+{
+    text-align: left;
+    width : 2.5%;
+    height : 2.5%;
+    position : relative;
+    right : 45%;
+}
+
+#membre
+{
+    border: 2px solid black;
+    margin : 2% 2% 2% 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#vente{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    width: 20%; /* largeur obligatoire pour être centré */
+
+}
+
+#bouton_recherche{
+    width : 2.5%;
+    height : 2.5%;
+    position : relative;
+    right : 46%;
+
+}

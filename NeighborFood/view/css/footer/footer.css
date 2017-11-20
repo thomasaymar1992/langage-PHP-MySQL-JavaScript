@@ -1,0 +1,43 @@
+/* footer */
+
+footer ul
+{
+    font-size: 1em;
+    list-style-type: none;
+    position: relative;
+    bottom: -500px;    
+}
+
+footer li
+{
+	display: inline-block;
+	border: 3px solid green;
+    border-radius:15px;
+    
+}
+
+help li
+{
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+
+help a
+{
+    font-size: 1.4em;
+	color: green;
+    padding-bottom: 3px;
+    text-decoration: none;
+    border: 3px solid green;
+    border-radius:15px;
+    box-shadow: 6px 6px 0px green;
+}
+
+help a:hover
+{
+    color: green;
+    border-bottom: 3px solid green;
+    opacity:0.5;
+   
+}

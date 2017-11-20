@@ -1,0 +1,71 @@
+#FAQ{
+    position: relative;
+    text-align: center;
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+
+}
+
+
+table li{
+    position: relative;
+    font-size: medium;
+    list-style: none;
+    width: 100%;
+    height: 70%;
+    background-color: burlywood;
+
+}
+table a {
+    width: 80%;
+    margin-left: 10%;
+    height: 70%;
+    text-align: center;
+    display: block; /* Les disposent en bloc*/
+    border: 3px solid burlywood;
+
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+table a:hover{
+    color: #ffffff;
+}
+
+h1, h4, h2{
+    color: #000000;
+}
+
+p{
+    color: #000000;
+    text-align: center;
+}
+
+
+
+#creer_compte{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
